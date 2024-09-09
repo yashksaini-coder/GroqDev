@@ -1,8 +1,22 @@
-# 🤖 AI Coding Assistant
+<div align="center">
+<img src="https://socialify.git.ci/yashksaini-coder/GroqDev/image?font=KoHo&forks=1&issues=1&name=1&owner=1&pattern=Signal&pulls=1&stargazers=1&theme=Dark" alt="GroqDev" width="640" height="320" />
+</div>
 
-![AI Coding Assistant](https://your-image-url-here.com/project-screenshot.png)
+<br>
+<div align='center'>
 
-A dynamic web application that leverages AI to assist with coding queries and challenges.
+  [![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:ys3853428@gmail.com)
+  [![Github](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/yashksaini-coder)
+  [![Medium](https://img.shields.io/badge/Medium-12100E?style=for-the-badge&logo=medium&logoColor=white)](https://medium.com/@yashksaini)
+  [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/yashksaini/)
+  [![Bento](https://img.shields.io/badge/Bento-768CFF.svg?style=for-the-badge&logo=Bento&logoColor=white)](https://bento.me/yashksaini)
+  [![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?style=for-the-badge&logo=Instagram&logoColor=white)](https://www.instagram.com/yashksaini.codes/)
+  [![X](https://img.shields.io/badge/X-%23000000.svg?style=for-the-badge&logo=X&logoColor=white)](https://twitter.com/EasycodesDev)
+   
+</div>
+
+# 🤖 Groq-Dev
+GroqDev is a Flask-based AI coding app that leverages the Groq API, offering multiple model selections for tasks like code completion, debugging, and optimization. Easily switch between models to suit your coding needs and streamline development with AI assistance.
 
 ## 🌟 Features
 
@@ -25,12 +39,12 @@ A dynamic web application that leverages AI to assist with coding queries and ch
 
 1. Clone the repository:
    ```
-   git clone https://github.com/yourusername/ai-coding-assistant.git
+   git clone https://github.com/yashksaini-coder/GroqDev
    ```
 
 2. Navigate to the project directory:
    ```
-   cd ai-coding-assistant
+   cd GroqDev
    ```
 
 3. Install the required dependencies:
@@ -61,20 +75,13 @@ A dynamic web application that leverages AI to assist with coding queries and ch
 
 ## 🤝 Contributing
 
-Contributions, issues, and feature requests are welcome! Feel free to check [issues page](https://github.com/yourusername/ai-coding-assistant/issues).
+Contributions, issues, and feature requests are welcome! Feel free to check [issues](https://github.com/yashksaini-coder/GroqDev/issues) page.
 
 ## 📝 License
 
-This project is [MIT](https://choosealicense.com/licenses/mit/) licensed.
-
-## 👨‍💻 Author
-
-**Your Name**
-
-- GitHub: [@yashksaini-coder](https://github.com/yashksaini-coder)
-- LinkedIn: [@yashksaini](https://linkedin.com/in/yashksaini)
-- Twitter: [@easycodesDev](https://twitter.com/easycodesDev)
+This project is [MIT](LICENSE) licensed.
 
 ---
+Note: This project is currently under development. People who want to contribute are welcome to do so. 
 
 ⭐️ Star this repo if you find it helpful!
