@@ -22,7 +22,6 @@ model_options = [
     {"value": "llama3-70b-8192", "name": "Meta Llama 3 70B"},
     {"value": "llama3-8b-8192", "name": "Meta Llama 3 8B"},
     {"value": "mixtral-8x7b-32768", "name": "Mixtral 8x7B"},
-    {"value": "whisper-large-v3", "name": "Whisper"}
 ]
 
 @app.route('/')
