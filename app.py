@@ -8,8 +8,6 @@ from dotenv import load_dotenv
 load_dotenv()
 
 app = Flask(__name__)
-
-# Initialize Groq client
 client = Groq(api_key=os.getenv("GROQ_API_KEY"))
 
 model_options = [
@@ -34,10 +32,8 @@ def ask():
     if not question:
         return "Please enter a query in text area.", 400
     try:
-        # Get the selected model from the form
         selected_model = request.form.get('model', 'mixtral-8x7b-32768')  # Default to mixtral-8x7b-32768 if not specified
 
-        # Generate response using Groq API with the selected model
         chat_completion = client.chat.completions.create(
             messages=[
                 {
@@ -53,9 +49,8 @@ def ask():
             model=selected_model,
             max_tokens=1024,
         )
-        # Extract the generated response
+
         response = chat_completion.choices[0].message.content
-        # Process code blocks
         def replace_code_block(match):
             language = match.group(1) or 'plaintext'
             code = match.group(2)
