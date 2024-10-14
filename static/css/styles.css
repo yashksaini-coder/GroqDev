@@ -1,11 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
 
 :root {
-    --primary-color: #8ab0abff;;
-    --secondary-color: #3e505bff;
-    --accent-color: #26413cff;
-    --background-color: #e5e5e5;
-    --text-color: #34495e;
+    --primary-color: #2c2c2c; /* Dark grey */
+    --secondary-color: #4f4f4f; /* Medium grey */
+    --accent-color: #e0e0e0; /* Light grey */
+    --background-color: #1a1a1a; /* Very dark grey */
+    --text-color: #ffffff; /* White */
 }
 
 * {
@@ -16,7 +16,7 @@
 
 body {
     font-family: 'Roboto', sans-serif;
-    background-color: #f0f0f0;
+    background-color: var(--background-color);
     color: var(--text-color);
     line-height: 1.6;
 }
@@ -91,7 +91,7 @@ main {
 }
 
 .question-section, .answer-section {
-    background-color: white;
+    background-color: var(--primary-color);
     border-radius: 10px;
     padding: 20px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
@@ -131,7 +131,7 @@ button {
 }
 
 button:hover {
-    background-color: #c0392b;
+    background-color: #c0392b; /* Change to a more visible color on hover */
 }
 
 h2 {
@@ -140,7 +140,7 @@ h2 {
 }
 
 .code-container {
-    background-color: #f8f9fa;
+    background-color: #2c2c2c; /* Dark grey for code container */
     border: 1px solid #dee2e6;
     border-radius: 5px;
     padding: 15px;
@@ -249,6 +249,8 @@ code {
 }
 
 footer {
+    background-color: var(--primary-color);
+    color: var(--text-color);
     text-align: center;
     padding: 20px 0;
     margin-top: 30px;
