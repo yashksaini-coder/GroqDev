@@ -120,7 +120,7 @@ textarea {
 
 button {
     background-color: var(--accent-color);
-    color: white;
+    color: rgb(255, 0, 0);
     border: none;
     padding: 15px 20px;
     font-size: 1rem;
@@ -130,9 +130,6 @@ button {
     height: 50px; /* Ensure consistent height */
 }
 
-button:hover {
-    background-color: #c0392b; /* Change to a more visible color on hover */
-}
 
 h2 {
     color: var(--secondary-color);
